@@ -11,7 +11,7 @@ function getData() {
        console.log('Données récupérées du fichier JSON :', data);
        /// ON ECRIT LE CODE ICI !
        let journal = data.journal.nomJournal;
-      console.log(journal) 
+       console.log(journal) 
 
       journal = data.journal.phraseAccroche;
       console.log(journal)
@@ -21,11 +21,15 @@ function getData() {
 
       journal = data.journal.pdf
       console.log(journal)
+      console.log("")
 
       journal =data.journal.texteAppelAction
       console.log(journal)
 
       let articlePrincipal = data.journal.articlePrincipal
+      console.log(articlePrincipal)
+
+      articlePrincipal = articlePrincipal.titre
       console.log(articlePrincipal)
       
 
