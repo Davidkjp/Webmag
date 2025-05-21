@@ -1,0 +1,89 @@
+{
+  "journal": {
+    "nomJournal": "Minéralia",
+    "phraseAccroche": "Explorez les trésors cachés de la Terre",
+    "texteAppelAction": "Abonnez-vous pour découvrir chaque mois des minéraux rares, des analyses scientifiques et des récits fascinants",
+    "articlePrincipal": {
+      "titre": "Les minéraux fluorescents : un phénomène naturel fascinant",
+      "description": "Certains minéraux révèlent leurs couleurs les plus éclatantes sous les UV. Comment et pourquoi ?",
+      "date": "20 Mai 2025",
+      "theme": "Curiosités minérales",
+      "image": "https://cdn.pixabay.com/photo/2019/10/01/14/48/mineral-4518045_1280.jpg"
+    },
+    "articles": [
+      {
+        "titre": "Cristaux emblématiques : quartz, pyrite, fluorite… zoom sur les classiques",
+        "date": "12 Mai 2025",
+        "theme": "Minéraux iconiques",
+        "image": "https://cdn.pixabay.com/photo/2015/08/25/03/50/crystals-906188_1280.jpg"
+      },
+      {
+        "titre": "La classification des minéraux : comprendre les familles chimiques",
+        "date": "5 Mai 2025",
+        "theme": "Pédagogie & science",
+        "image": "https://cdn.pixabay.com/photo/2016/10/27/22/52/amethyst-1771914_1280.jpg"
+      },
+      {
+        "titre": "Gisements célèbres : les trésors géologiques du monde",
+        "date": "25 Avril 2025",
+        "theme": "Terrains & géologie",
+        "image": "https://cdn.pixabay.com/photo/2022/01/09/15/10/mineral-6925753_1280.jpg"
+      },
+      {
+        "titre": "Minéraux et technologie : des composants essentiels au numérique",
+        "date": "18 Avril 2025",
+        "theme": "Applications & industrie",
+        "image": "https://cdn.pixabay.com/photo/2018/02/15/10/10/metal-3157933_1280.jpg"
+      },
+      {
+        "titre": "Faut-il réguler le marché des minéraux rares ?",
+        "date": "8 Avril 2025",
+        "theme": "Enjeux économiques",
+        "image": "https://cdn.pixabay.com/photo/2017/08/06/08/24/gold-2589877_1280.jpg"
+      }
+    ],
+    "themes": [
+      {
+        "nom": "Curiosités minérales",
+        "description": "Des phénomènes étonnants liés aux propriétés physiques ou optiques des minéraux."
+      },
+      {
+        "nom": "Minéraux iconiques",
+        "description": "Focus sur les cristaux les plus connus et les plus collectionnés."
+      },
+      {
+        "nom": "Pédagogie & science",
+        "description": "Bases théoriques et classifications pour mieux comprendre la minéralogie."
+      },
+      {
+        "nom": "Terrains & géologie",
+        "description": "Exploration des lieux de formation et des conditions géologiques."
+      },
+      {
+        "nom": "Applications & industrie",
+        "description": "Comment les minéraux sont utilisés dans l’électronique, l’aéronautique, la médecine…"
+      },
+      {
+        "nom": "Enjeux économiques",
+        "description": "Questions autour de l’extraction, du commerce et de la rareté des ressources minérales."
+      }
+    ],
+    "auteurs": [
+      {
+        "prenom": "Claire",
+        "typeExperience": "Géologue minéralogiste",
+        "presentation": "Je mène des recherches sur les cristallisations rares et leurs conditions de formation."
+      },
+      {
+        "prenom": "Thomas",
+        "typeExperience": "Collectionneur et vulgarisateur",
+        "presentation": "Je partage ma passion pour les minéraux à travers expositions et conférences pédagogiques."
+      },
+      {
+        "prenom": "Elena",
+        "typeExperience": "Économiste des ressources naturelles",
+        "presentation": "Je m'intéresse aux impacts économiques et géopolitiques liés aux matériaux critiques."
+      }
+    ]
+  }
+}
