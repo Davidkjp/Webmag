@@ -2,6 +2,8 @@
   "journal": {
     "nomJournal": "Minéralia",
     "phraseAccroche": "Explorez les trésors cachés de la Terre",
+    "logo": "images/logo.svg",
+    "pdf": "lesminéraux.pdf",
     "texteAppelAction": "Abonnez-vous pour découvrir chaque mois des minéraux rares, des analyses scientifiques et des récits fascinants",
     "articlePrincipal": {
       "titre": "Les minéraux fluorescents : un phénomène naturel fascinant",

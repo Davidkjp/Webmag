@@ -1,13 +1,76 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-color: #f4f4f4;
+  background-color: #f4f0f0;
 }
 
-#journal-container {
+
+#time-based-style {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  padding: 30px; 
+  font-size: 24px; 
+}
+
+.aurore {
+  background-color: #FFF3CD;
+}
+.matin {
+  background-color: #e3edef;
+}
+.apres-midi {
+  background-color: #e5f1e8;
+}
+.soiree {
+  background-color: #f3e5e6;
+}
+.nuit {
+  background-color: #535557;
+  color: white;
+}
+
+#main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+#nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+#logo-container img {
+  height: 50px;
+}
+
+#accroche {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+  font-style: italic;
+  color: #555;
+}
+
+#product-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; 
   gap: 20px;
+  margin-top: 20px;
 }
 
 .journal-article {
@@ -17,6 +80,7 @@ body {
   width: 250px;
   padding: 15px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  /*text-align: center;*/
 }
 
 .journal-article img {
@@ -24,3 +88,22 @@ body {
   height: auto;
   border-radius: 5px;
 }
+
+ button {
+   margin-top: 20px;
+   padding: 10px 20px;
+   background-color: black;
+   color: white;
+   border: none;   
+ }
+
+ .contact{
+   padding: 40px;
+   align-items: center;
+   text-align: center;
+ }
+
+ .contact .socials {
+   padding: 15px;
+   margin: 10px;
+ }

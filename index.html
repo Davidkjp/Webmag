@@ -3,14 +3,55 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Webmag</title>
+   <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+   <title>Minéralia</title>
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <!-- Début HTML -->
+<header id="main-header">
+     <nav id="nav-menu">
+       <ul>
+         <li><a href="#">Accueil</a></li>
+         <li><a href="#">Articles</a></li>
+         <li><a href="#">Contact</a></li>
+       </ul>
+     </nav>
+     <div id="logo-container"></div>
+   </header>
+
+ 
+
+<div id="time-based-style">
+  <div id="time-display"></div>
+  <div id="say-hi"></div>
+</div>
+
+<div id="accroche"></div>
+
+ <div style="text-align: center;">
+  <a href="images/lesminéraux.pdf" target="_blank">Télécharger le PDF sur les minéraux</a>
+</div>
+
     <h1>Catalogue des articles</h1>
-    <div id="journal-container"></div>
-   
+    <div id="product-container"></div>
+
+
+   <section class="contact">
+    <h2>Travaillons ensemble !</h2>
+    <p>Vous pouvez me contacter par mail ou vous pouvez me suivre sur différents réseaux.</p>
+    <button><a href="mailto:someone@yoursite.com">Contacter</a></button>
+    <div class="socials">
+      <a href="#"><img src="images/fb.svg" alt="Facebook" /></a>
+      <a href="#"><img src="images/tw.svg" alt="Twitter" /></a>
+      <a href="#"><img src="images/inst.svg" alt="Instagram" /></a>
+      <a href="https://github.com/davidkjp"><img src="images/git.svg" alt="GitHub" /></a>
+      <a href="https://linkedin.com/in/davidkjp"><img src="images/ld.svg" alt="LinkedIn" /></a>
+      
+    </div>
+  </section>
+
+       
    <!-- Fin HTML -->
    <script src="script.js"></script>
 </body>
