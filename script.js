@@ -46,7 +46,24 @@ function getData() {
       container.appendChild(articleElement);
     });
 
-      
+      /** */
+
+      const auteursContainer = document.getElementById('auteurs-container');
+const auteurs = data.journal.auteurs;
+
+auteurs.forEach(auteur => {
+  const auteurElement = document.createElement('div');
+  auteurElement.classList.add('auteur');
+
+  auteurElement.innerHTML = `
+    <img src="${auteur.photo}" alt="${auteur.prenom}">
+    <h3>${auteur.prenom}</h3>
+    <p><strong>${auteur.typeExperience}</strong></p>
+    <p>${auteur.presentation}</p>
+  `;
+
+  auteursContainer.appendChild(auteurElement);
+});
 
        /// FIN DU CODE
      })
@@ -104,7 +121,7 @@ function updateClock() {
 }
 
 window.onload = function () {
-  getData();               
+               
   updateClock();
   setInterval(updateClock, 1000);
 };
